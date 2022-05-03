@@ -44,6 +44,7 @@
     "@koa/router": "^10.1.1",
     "koa": "^2.13.4",
     "koa-bodyparser": "^4.3.0",
+    "koa-static": "^5.0.0",
     "nodemon": "^2.0.16",
     "save": "^2.5.0"
   }
