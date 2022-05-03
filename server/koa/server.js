@@ -1,13 +1,11 @@
 /* eslint-disable linebreak-style */
 const http = require('http');
 const koa = require('koa');
-
-const HomeRoutes = require('homeRouter');
-
 const bodyParser = require('koa-bodyparser');
-app.use(bodyParser()); //register this with your koa application
+const HomeRoutes = require('C:/Users/calvo/Desktop/WebTraining/7 - ChatServer/chat-server-exercise/routes/homeRouter.js');
 
 const app = new koa();
+app.use(bodyParser()); //register this with your koa application
 
 app.use(HomeRoutes.routes())
   .use(HomeRoutes.allowedMethods());
