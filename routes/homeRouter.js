@@ -13,6 +13,6 @@ router.post('/', ctx => {
   ctx.body = 'Hello World - post';
 });
 
-router.use(messagesRouter.routers());
+//router.use(messagesRouter.routers());
 
 module.exports = router;
