@@ -38,5 +38,12 @@
     "hooks": {
       "pre-commit": "npm run precommit"
     }
+  },
+  "dependencies": {
+    "7": "^0.0.1",
+    "@koa/router": "^10.1.1",
+    "koa": "^2.13.4",
+    "nodemon": "^2.0.16",
+    "save": "^2.5.0"
   }
 }
